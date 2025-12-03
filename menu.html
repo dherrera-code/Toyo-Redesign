@@ -63,7 +63,8 @@
                         <a class="nav-link text-white" href="#Entrees" style="font-size: 30px;">Entrees</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#DinnerSpecials" style="font-size: 30px;">Dinner Special</a>
+                        <a class="nav-link text-white" href="#DinnerSpecials" style="font-size: 30px;">Dinner
+                            Special</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#Udon" style="font-size: 30px;">Udon</a>
@@ -83,7 +84,8 @@
                             <br>(Roll)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white text-center" href="#Donburi" style="font-size: 30px;">Donburi <br>(Over
+                        <a class="nav-link text-white text-center" href="#Donburi" style="font-size: 30px;">Donburi
+                            <br>(Over
                             Rice)</a>
                     </li>
                 </ul>
@@ -91,38 +93,35 @@
         </div>
     </nav>
     <!-- Carousel navbar for items -->
-     <div id="carouselExampleIndicators" class="carousel slide d-block d-lg-none">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item">
-        <div>
-            <a href="Appetizers">Appetizers</a>
-            <a href="Udon">Udon</a>
-            <a href="DinnerSpecials">Dinner Special</a>
-            <a href="Entrees">Entrees</a>
-
+    <div id="carouselExampleIndicators" class="carousel slide sticky-top bg-black d-blcok d-lg-none" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active d-flex justify-content-around">
+                <a href="">Appetizer</a>
+                <a href="">Udon</a>
+                <a href="#DinnerSpecials">Dinner Special</a>
+                <a href="Entrees">Entrees</a>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Third slide">
+            </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
     </div>
-    <div class="carousel-item">
-      <!-- <img src="..." class="d-block w-100" alt="..."> -->
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
     <!-- Hero image in menu page -->
     <section>
         <img class="w-100" src="./Assets/Menu-Hero2.png" alt="Image of food via Toyo Sushi">
@@ -186,10 +185,10 @@
                                     alt="Udon soup prepared by Toyo Sushi">
                             </div>
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100 text-white" alt="insert img">
+                                <img src="#" class="d-block w-100 text-white" alt="insert img">
                             </div>
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100 text-white" alt="insert img agian...">
+                                <img src="#" class="d-block w-100 text-white" alt="insert img agian...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -480,29 +479,29 @@
         <div class="container">
             <div class="row mb-5">
 
-            
-            <div class="col text-white">
-                <p class="menu-items">1. Sashimi Deluxe</p>
-                <p>(Assorted Sliced Raw Fish) (By Season)</p>
-                <p class="menu-items">2. Tuna Sashimi</p>
-                <p>(Sliced Raw Tuna)</p>
-                <p class="menu-items">3. Hamachi Sashimi</p>
-                <p>(Sliced Raw Yellowtail)</p>
-                <p class="menu-items">4. Chirashi</p>
-                <p>(Variety Of Sliced Raw Fish Over Sushi Rice)</p>
-                <p class="menu-items">5. Tekka Don</p>
-                <p>(Sliced Raw Tuna Over Sushi Rice)</p>
-                <p class="menu-items">6. Hamachi Don</p>
-                <p>(Sliced Raw Yellowtail Over Sushi Rice)</p>
-                <p class="menu-items">7. Happy Sushi</p>
-                <p>(9Pcs Chef’s Selected Nigiri)</p>
-                <p class="menu-items">8. Tuna Ceviche</p>
-                <p>(Raw tuna with vegetables sitting on chips)</p>
-                <p class="menu-items">9. Spicy Sashimi Salad</p>
-            </div>
-            <div class="col">
 
-            </div>
+                <div class="col text-white">
+                    <p class="menu-items">1. Sashimi Deluxe</p>
+                    <p>(Assorted Sliced Raw Fish) (By Season)</p>
+                    <p class="menu-items">2. Tuna Sashimi</p>
+                    <p>(Sliced Raw Tuna)</p>
+                    <p class="menu-items">3. Hamachi Sashimi</p>
+                    <p>(Sliced Raw Yellowtail)</p>
+                    <p class="menu-items">4. Chirashi</p>
+                    <p>(Variety Of Sliced Raw Fish Over Sushi Rice)</p>
+                    <p class="menu-items">5. Tekka Don</p>
+                    <p>(Sliced Raw Tuna Over Sushi Rice)</p>
+                    <p class="menu-items">6. Hamachi Don</p>
+                    <p>(Sliced Raw Yellowtail Over Sushi Rice)</p>
+                    <p class="menu-items">7. Happy Sushi</p>
+                    <p>(9Pcs Chef’s Selected Nigiri)</p>
+                    <p class="menu-items">8. Tuna Ceviche</p>
+                    <p>(Raw tuna with vegetables sitting on chips)</p>
+                    <p class="menu-items">9. Spicy Sashimi Salad</p>
+                </div>
+                <div class="col">
+
+                </div>
             </div>
         </div>
     </article>
