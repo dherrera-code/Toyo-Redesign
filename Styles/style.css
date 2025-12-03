@@ -39,19 +39,6 @@ body {
 .hero-text{
     font-size: 64px;
 }
-@media (max-width: 800px)
-{
-    .hero-text
-    {
-        font-size: 40px;
-    }
-}
-@media (max-width: 500px)
-{
-    .hero-text{
-        font-size: 24px;
-    }
-}
 /* End of classes for hero images */
 .footergrid{
     display: grid;
@@ -74,4 +61,26 @@ body {
     grid-column: 6 / 8;
     grid-row: 1;
     color: white;
+}
+@media (max-width: 800px)
+{
+    .hero-text
+    {
+        font-size: 40px;
+    }
+}
+@media (max-width: 500px)
+{
+    .hero-text{
+        font-size: 24px;
+    }
+        .address{
+        grid-row: 1 ;
+        grid-column: 2 / 8;
+    }
+    .hours{
+        grid-row: 2 ;
+        grid-column: 2/ 8;
+        text-align: center;
+    }
 }
