@@ -37,34 +37,13 @@ body {
     align-items: center;
 }
 .hero-text{
-    font-size: 64px;
-}
-@media (max-width: 800px)
-{
-    .hero-text
-    {
-        font-size: 40px;
-    }
-}
-@media (max-width: 500px)
-{
-    .hero-text{
-        font-size: 24px;
-    }
-    .navLogo {
-    font-size: 24px;
-    }
-    .nav-font-size{
-        font-size: 20px;
-    }
-}
+    font-size: 64px;}
 /* End of classes for hero images */
 .footergrid{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto;
-    background-color: rgba(rgb(0, 0, 0),);
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 .footergrid p{
     margin: 0;
