@@ -1,0 +1,20 @@
+body {
+    background-color: #1E1E1E;
+
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navLogo {
+    font-size: 50px;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-font-size{
+    font-size: 38px;
+}
+.underline{
+    text-decoration: underline;
+}
