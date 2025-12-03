@@ -4,6 +4,10 @@ body {
     font-family: "Julee", cursive;
     font-weight: 400;
     font-style: normal;
+    
+}
+html{
+    scroll-padding-top: 60px;
 }
 /* Classes for Top Navbar */
 .navLogo {

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tojo Sushi Home</title>
+    <title>Toyo Sushi Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./Styles/style.css">
@@ -24,7 +24,7 @@
 
         <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
             <div class="container-fluid text-white">
-                <a class="navbar-brand text-white navLogo ms-4" href="#">寿 Toyo Sushi 司</a>
+                <a class="navbar-brand text-white navLogo ms-4" href="./index.html">寿 Toyo Sushi 司</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -39,15 +39,15 @@
                             <a class="nav-link text-white nav-font-size me-lg-5 ms-4 underline" href="#">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white nav-font-size me-lg-5 ms-4" href="#">Contact</a>
+                            <a class="nav-link text-white nav-font-size me-lg-5 ms-4" href="#Contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
-    <nav class="navbar navbar-expand-lg p-0 d-none d-lg-block">
+    <!-- Menu navbar for desktop version -->
+    <nav style="background-color: #1E1E1E;" class="navbar sticky-top navbar-expand-lg p-0 d-none d-lg-block">
         <div class="container-fluid">
             <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -57,33 +57,33 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-fill justify-content-between align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" style="font-size: 30px;">Appetizers</a>
+                        <a class="nav-link text-white" href="#Appetizer" style="font-size: 30px;">Appetizers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" style="font-size: 30px;">Entrees</a>
+                        <a class="nav-link text-white" href="#Entrees" style="font-size: 30px;">Entrees</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" style="font-size: 30px;">Dinner Special</a>
+                        <a class="nav-link text-white" href="#DinnerSpecials" style="font-size: 30px;">Dinner Special</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" style="font-size: 30px;">Udon</a>
+                        <a class="nav-link text-white" href="#Udon" style="font-size: 30px;">Udon</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white text-center" href="#" style="font-size: 30px;">Temaki
+                        <a class="nav-link text-white text-center" href="#TemakiSushi" style="font-size: 30px;">Temaki
                             Sushi<br>(Hand Roll)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" style="font-size: 30px;">Special Sushi</a>
+                        <a class="nav-link text-white" href="#SpecialSushi" style="font-size: 30px;">Special Sushi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" style="font-size: 30px;">Sashimi</a>
+                        <a class="nav-link text-white" href="#Sashimi" style="font-size: 30px;">Sashimi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white text-center" href="#" style="font-size: 30px;">Sushi Maki
+                        <a class="nav-link text-white text-center" href="#SushiMaki" style="font-size: 30px;">Sushi Maki
                             <br>(Roll)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white text-center" href="#" style="font-size: 30px;">Donburi <br>(Over
+                        <a class="nav-link text-white text-center" href="#Donburi" style="font-size: 30px;">Donburi <br>(Over
                             Rice)</a>
                     </li>
                 </ul>
@@ -92,10 +92,10 @@
     </nav>
     <!-- Hero image in menu page -->
     <section>
-        <img class="w-100" src="./Assets/Menu-Hero2.png" alt="">
+        <img class="w-100" src="./Assets/Menu-Hero2.png" alt="Image of food via Toyo Sushi">
     </section>
     <!-- Appetizers -->
-    <article>
+    <article id="Appetizer">
         <h1 class="text-white text-center py-5">Appetizers</h1>
         <div class="container">
             <div class="row">
@@ -131,7 +131,7 @@
         </div>
     </article>
     <!-- Udon Content! -->
-    <article>
+    <article id="Udon">
         <h1 class="text-white text-center py-5">Udon (Noodle Soup)</h1>
 
         <div class="container">
@@ -150,7 +150,7 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="./Assets/udon soup 1.png" class="d-block w-100"
-                                    alt="Udon soup prepared by Tojo Sushi">
+                                    alt="Udon soup prepared by Toyo Sushi">
                             </div>
                             <div class="carousel-item">
                                 <img src="..." class="d-block w-100 text-white" alt="insert img">
@@ -176,7 +176,7 @@
 
     </article>
     <!-- Dinner Specials -->
-    <article>
+    <article id="DinnerSpecials">
         <h1 class="text-white text-center pt-5 mb-0">Dinner Specials Combinations $19.95</h1>
         <p class="text-center text-white menu-desc pb-5">(Any Three Different Items Below Served W/ Salad, Rice, & Soup)
         </p>
@@ -206,7 +206,7 @@
         </div>
     </article>
     <!-- Entrees -->
-    <article>
+    <article id="Entrees">
         <h1 class="text-white text-center pt-5">Entrees</h1>
         <p class="text-white text-center menu-desc pb-5">(Served W/ Salad, Rice, & Soup)</p>
 
@@ -239,7 +239,7 @@
         </div>
     </article>
     <!-- Donburi -->
-    <article>
+    <article id="Donburi">
         <h1 class="text-white text-center pt-5">Donburi (Over Rice)</h1>
         <p class="text-white text-center menu-desc pb-5">(Served W/ Salad)</p>
 
@@ -261,7 +261,7 @@
         </div>
     </article>
     <!-- Sushi Maki -->
-    <article>
+    <article id="SushiMaki">
         <h1 class="text-white text-center py-5">Sushi Maki (Roll) <br>Appetizers</h1>
         <div class="container">
             <div class="row">
@@ -302,7 +302,7 @@
 
     </article>
     <!-- Temaki Sushi -->
-    <article>
+    <article id="TemakiSushi">
         <h1 class="text-white text-center py-5">Temaki Sushi <br> (Hand Roll)</h1>
 
         <div class="container">
@@ -322,7 +322,7 @@
         </div>
     </article>
     <!-- Special Sushi -->
-    <article>
+    <article id="SpecialSushi">
         <h1 class="text-white text-center py-5">Special Sushi</h1>
         <div class="container">
             <div class="row text-white">
@@ -441,7 +441,7 @@
         </div>
     </article>
     <!-- Sashimi -->
-    <article>
+    <article id="Sashimi">
         <h1 class="text-white text-center pt-5">Sashimi</h1>
         <p class="text-white text-center menu-desc pb-5">(Served W/ Salad, Rice & Soup)</p>
         <div class="container">
@@ -476,7 +476,7 @@
 
     <!-- insert footer -->
 
-    <footer class="footergrid bg-black">
+    <footer id="Contact" class="footergrid bg-black">
 
         <div class="address text-center pt-5">
             <h1>寿Toyo Sushi司</h1>
