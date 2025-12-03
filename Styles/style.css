@@ -60,6 +60,33 @@ body {
     grid-row: 1;
     color: white;
 }
+.homegrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2%;
+}
+.homegrid img{
+    width: 100%;
+    height: auto;
+}
+
+.appetizers{
+    grid-column: 1;
+    grid-row: 1;
+}
+.dinner{
+    grid-column: 2;
+    grid-row: 1;
+}
+.sushi{
+    grid-column: 3;
+    grid-row: 1;
+}
+.zerospacing{
+    margin: 0;
+    padding: 0;
+}
 @media (max-width: 800px)
 {
     .hero-text
@@ -67,7 +94,7 @@ body {
         font-size: 40px;
     }
 }
-@media (max-width: 500px)
+@media (max-width: 575px)
 {
     .hero-text{
         font-size: 24px;
@@ -81,4 +108,27 @@ body {
         grid-column: 2/ 8;
         text-align: center;
     }
+    .homegrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin-top: 7%; 
+    gap: 0;
+
+}
+.appetizers{
+    grid-column: 1;
+    grid-row: 1;
+}
+.dinner{
+    grid-column: 1;
+    grid-row: 2;
+}
+.sushi{
+    grid-column: 1;
+    grid-row: 3;
+}
+.sushi img{
+    background-image: url(../image12);
+}
 }
