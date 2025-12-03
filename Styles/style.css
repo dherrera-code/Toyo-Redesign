@@ -18,3 +18,19 @@ body {
 .underline{
     text-decoration: underline;
 }
+.gridHome{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.gridHome img{
+    grid-column: 1;
+    grid-row: 1;
+}
+.hero-bg-color{
+    background-color:rgba(196, 196, 196, 45%);
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
