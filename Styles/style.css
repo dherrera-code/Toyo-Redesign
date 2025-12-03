@@ -42,6 +42,11 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto;
     background-color: rgba(rgb(0, 0, 0),);
+    margin-bottom: 3rem;
+}
+.footergrid p{
+    margin: 0;
+    padding: 0;
 }
 .address{
     grid-column: 2 / 5;
