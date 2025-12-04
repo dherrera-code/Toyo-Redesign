@@ -339,60 +339,64 @@
                     <p class="menu-desc">(Jalapeño with cheese and spicy tuna or spicy salmon deep fried)</p>
                     <p class="menu-items">15. Bake Mussel — 14.00</p>
                 </div>
-                <div class="col d-none d-lg-block d-flex ">
-                    <div id="carouselSushiMaki" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner" style="height: 500px;">
-                            <div class="carousel-item active">
-                                <img src="./Assets/SpicyTunaHandRoll.jpg" class="d-block w-100"
-                                    alt="An image of spicy sushi Hand Roll.">
+                <div class="col d-none d-lg-block ">
+                    <div class="heightBox d-flex flex-column justify-content-end" style="height: 1500px;">
+
+
+                        <div id="carouselSushiMaki" class="carousel slide mb-auto" data-bs-ride="carousel"
+                            style="height: 500px;">
+                            <div class="carousel-inner" style="height: 500px;">
+                                <div class="carousel-item active">
+                                    <img src="./Assets/SpicyTunaHandRoll.jpg" class="d-block w-100"
+                                        alt="An image of spicy sushi Hand Roll.">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Assets/BBQSalmonSkinHandRoll.jpg" class="d-block w-100"
+                                        alt="Image BBQ Salmon Skin Hand Roll">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Assets/TunaHandRoll.jpg" class="d-block w-100" alt="Tuna Hand Roll">
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="./Assets/BBQSalmonSkinHandRoll.jpg" class="d-block w-100"
-                                    alt="Image BBQ Salmon Skin Hand Roll">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./Assets/TunaHandRoll.jpg" class="d-block w-100" alt="Tuna Hand Roll">
-                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSushiMaki"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselSushiMaki"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSushiMaki"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselSushiMaki"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <!-- bottom:  maki calif, boston, raindow!! -->
-                    <div id="carouselMakiBottom" class="carousel slide align-items-end" data-bs-ride="carousel">
-                        <div class="carousel-inner" style="height: 600px;">
-                            <div class="carousel-item active">
-                                <img src="./Assets/CaliforniaRoll.jpg" class="d-block w-100" alt="...">
+                        <!-- bottom:  maki calif, boston, raindow!! -->
+                        <div id="carouselMakiBottom" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" style="height: 600px;">
+                                <div class="carousel-item active">
+                                    <img src="./Assets/CaliforniaRoll.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Assets/BostonRoll.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Assets/rainbow roll sushi 1.png" class="d-block w-100" alt="...">
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="./Assets/BostonRoll.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./Assets/rainbow roll sushi 1.png" class="d-block w-100" alt="...">
-                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMakiBottom"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselMakiBottom"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMakiBottom"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMakiBottom"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
             </div>
         </div>
-
     </article>
     <!-- Temaki Sushi -->
     <article id="TemakiSushi">
@@ -429,19 +433,24 @@
                                         alt="An image of samurai roll sushi.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./Assets/CrunchYDragonRoll.jpg" class="d-block w-100" alt="An image of crunchy dragon roll.">
+                                    <img src="./Assets/CrunchYDragonRoll.jpg" class="d-block w-100"
+                                        alt="An image of crunchy dragon roll.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./Assets/LakeWoodRoll.jpg" class="d-block w-100" alt="A picture from Lake wood roll!">
+                                    <img src="./Assets/LakeWoodRoll.jpg" class="d-block w-100"
+                                        alt="A picture from Lake wood roll!">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./Assets/PapasSpecialRoll.jpg" class="d-block w-100" alt="A picture of Papas special roll">
+                                    <img src="./Assets/PapasSpecialRoll.jpg" class="d-block w-100"
+                                        alt="A picture of Papas special roll">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./Assets/rainbow roll sushi 1.png" class="d-block w-100" alt="A picture of the delicious rainbow roll">
+                                    <img src="./Assets/rainbow roll sushi 1.png" class="d-block w-100"
+                                        alt="A picture of the delicious rainbow roll">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./Assets/SpiderRoll.jpg" class="d-block w-100" alt="A picture of a spider roll">
+                                    <img src="./Assets/SpiderRoll.jpg" class="d-block w-100"
+                                        alt="A picture of a spider roll">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
@@ -527,28 +536,33 @@
                                         alt="An image of samurai roll sushi.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./Assets/CrunchYDragonRoll.jpg" class="d-block w-100" alt="An image of crunchy dragon roll.">
+                                    <img src="./Assets/CrunchYDragonRoll.jpg" class="d-block w-100"
+                                        alt="An image of crunchy dragon roll.">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./Assets/LakeWoodRoll.jpg" class="d-block w-100" alt="A picture from Lake wood roll!">
+                                    <img src="./Assets/LakeWoodRoll.jpg" class="d-block w-100"
+                                        alt="A picture from Lake wood roll!">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./Assets/PapasSpecialRoll.jpg" class="d-block w-100" alt="A picture of Papas special roll">
+                                    <img src="./Assets/PapasSpecialRoll.jpg" class="d-block w-100"
+                                        alt="A picture of Papas special roll">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./Assets/rainbow roll sushi 1.png" class="d-block w-100" alt="A picture of the delicious rainbow roll">
+                                    <img src="./Assets/rainbow roll sushi 1.png" class="d-block w-100"
+                                        alt="A picture of the delicious rainbow roll">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./Assets/SpiderRoll.jpg" class="d-block w-100" alt="A picture of a spider roll">
+                                    <img src="./Assets/SpiderRoll.jpg" class="d-block w-100"
+                                        alt="A picture of a spider roll">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselSpecialSushi" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSpecialSushi"
+                                data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselSpecialSushi" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselSpecialSushi"
+                                data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
