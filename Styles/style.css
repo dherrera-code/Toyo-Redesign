@@ -133,6 +133,18 @@ html {
     font-size: 40px;
     margin-bottom: 0;
 }
+.BackToTop{
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 5%;
+        left: 90%;
+        max-width: 50px;
+        width: 100%;
+        background-color: rgb(100,100,100);
+        padding: .5px;
+        border-radius: 4px;
+}
 @media (max-width: 800px) {
     .hero-text {
         font-size: 40px;
@@ -209,4 +221,17 @@ html {
     .sushi-carousel{
         height: 250px;
     }
+    .BackToTop{
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 15%;
+        left: 85%;
+        max-width: 50px;
+        width: 100%;
+        background-color: rgb(100,100,100);
+        padding: .5px;
+        border-radius: 4px;
+        z-index: 1000;
+}
 }
