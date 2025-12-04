@@ -186,6 +186,9 @@ html {
         background-image: url(../image12);
     }
 }
+.sushi-carousel{
+    height: 400px;
+}
 @media (max-width: 500px)
 {
     .menu-items{
@@ -202,5 +205,8 @@ html {
     }
     .navLogo{
         font-size: 24px;
+    }
+    .sushi-carousel{
+        height: 250px;
     }
 }
