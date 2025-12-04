@@ -114,6 +114,9 @@ html {
     .hero-text {
         font-size: 40px;
     }
+    html {
+    scroll-padding-top: 40px;
+}
 }
 
 @media (max-width: 575px) {
