@@ -134,10 +134,10 @@
     </section>
     <!-- Appetizers -->
     <article id="Appetizer">
-        <h1 class="text-white text-center py-5">Appetizers</h1>
+        <h1 class="text-white text-center py-4 py-md-5 menu-title">Appetizers</h1>
         <div class="container">
             <div class="row">
-                <div class="col-4 text-white ">
+                <div class="col-12 ps-5 ps-lg-0 col-lg-4 text-white ">
                     <p class="menu-items">1. Fried-Wontons — 9.50</p>
                     <p class="menu-items">2. Edamame — 7.00</p>
                     <p class="menu-desc">(Boiled Soybean)</p>
@@ -149,10 +149,10 @@
                     <p class="menu-items">6. B.B.Q. Salmon Skin Salad — 10.00</p>
 
                 </div>
-                <div class="col-4 position-relative">
-                    <img class="position-absolute d-none d-lg-block" src="./Assets/Appetizer.png" alt="Appetizer">
+                <div class="col-4 position-relative d-none d-lg-block">
+                    <img class="position-absolute " src="./Assets/Appetizer.png" alt="Appetizer">
                 </div>
-                <div class="col-4 text-white text-start">
+                <div class="col-12 ps-5 ps-lg-0 col-lg-4 text-white text-start">
 
                     <p class="menu-items">7. Ika Fry — 9.50</p>
                     <p class="menu-desc">(Deep Fried Squid)</p>
@@ -170,11 +170,11 @@
     </article>
     <!-- Udon Content! -->
     <article id="Udon">
-        <h1 class="text-white text-center py-5">Udon (Noodle Soup)</h1>
+        <h1 class="text-white text-center py-4 py-md-5 menu-title">Udon (Noodle Soup)</h1>
 
         <div class="container">
-            <div class="row">
-                <div class="col text-white">
+            <div class="row ">
+                <div class="col text-white ps-5 ps-lg-0">
                     <p class="menu-items">1. Nabeyaki Udon — 14.95</p>
                     <p class="menu-desc">(Shrimp Tempura, Vegetables & Egg Cooked W/ Noodle Soup)</p>
                     <p class="menu-items">2. Tempura Udon — 14.95</p>
@@ -183,18 +183,18 @@
                     <p class="menu-items">4. Beef Teriyaki Udon — 14.95</p>
 
                 </div>
-                <div class="col">
+                <div class="col d-none d-lg-block">
                     <div id="carouselUdon" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" style="max-height: 480px;">
                             <div class="carousel-item active">
-                                <img src="./Assets/udon soup 1.png" class="d-block w-100"
+                                <img src="./Assets/Nabauki Udon.png" class="d-block w-100 text-white"
                                     alt="Udon soup prepared by Toyo Sushi">
                             </div>
                             <div class="carousel-item">
-                                <img src="#" class="d-block w-100 text-white" alt="insert img">
+                                <img src="./Assets/tempuraUdon 1.png" class="d-block w-100 text-white" alt="A bowl of Tempura Udon prepared by Toyo Sushi!">
                             </div>
                             <div class="carousel-item">
-                                <img src="#" class="d-block w-100 text-white" alt="insert img agian...">
+                                <img src="./Assets/Udon-soup3.jpg" class="d-block w-100 text-white" alt="insert img agian...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselUdon"
@@ -215,13 +215,13 @@
     </article>
     <!-- Dinner Specials -->
     <article id="DinnerSpecials">
-        <h1 class="text-white text-center pt-5 mb-0">Dinner Specials Combinations $19.95</h1>
+        <h1 class="text-white text-center pt-5 mb-0 menu-title">Dinner Specials Combinations $19.95</h1>
         <p class="text-center text-white menu-desc pb-5">(Any Three Different Items Below Served W/ Salad, Rice, & Soup)
         </p>
 
         <div class="container">
-            <div class="row">
-                <div class="col text-white">
+            <div class="row wrap">
+                <div class="col-6 col-lg text-white order-1 ps-5 ps-lg-0">
                     <p class="menu-items">1. Chicken Teriyaki</p>
                     <p class="menu-items">2. Beef Teriyaki</p>
                     <p class="menu-items">3. Tempura</p>
@@ -229,28 +229,31 @@
                     <p class="menu-items">5. Chicken Katsu</p>
                     <p class="menu-items">6. California Roll</p>
                 </div>
-                <div class="col d-none d-lg-block">
+                <div class="col-6 col-lg d-none d-md-block order-2">
                     <img src="./Assets/Dinner-Special-combo-1.png" style="height: 258px;"
                         alt="Picture of a Dinner Special order!">
                 </div>
-                <div class="col text-white">
+                <div class="col-6 col-lg col-md-12 text-white order-3 ps-md-5 ps-lg-0">
                     <p class="menu-items">7. Sashimi</p>
                     <p class="menu-items">8. Salmon Teriyaki Or Shioyaki</p>
                     <p class="menu-items">9. Shrimp Katsu</p>
                     <p class="menu-items">10. Saba Shioyaki</p>
                     <p class="menu-items">11. Croquette</p>
                 </div>
+                <div class="d-block d-sm-none col-12 order-4 d-flex justify-content-center pt-3">
+                    <img src="./Assets/Dinner Combo.png" alt="">
+                </div>
             </div>
         </div>
     </article>
     <!-- Entrees -->
     <article id="Entrees">
-        <h1 class="text-white text-center pt-5">Entrees</h1>
-        <p class="text-white text-center menu-desc pb-5">(Served W/ Salad, Rice, & Soup)</p>
+        <h1 class="text-white text-center pt-4 pt-md-5 menu-title">Entrees</h1>
+        <p class="text-white text-center menu-desc pb-5 menu-desc">(Served W/ Salad, Rice, & Soup)</p>
 
         <div class="container">
             <div class="row">
-                <div class="col text-white">
+                <div class="ps-5 ps-lg-0 col-12 col-lg text-white">
                     <p class="menu-items">1. Chicken Teriyaki — 17.95</p>
                     <p class="menu-desc">(Chicken Grilled W/ Teriyaki Sauce)</p>
                     <p class="menu-items">2. Tempura — 17.95</p>
@@ -262,7 +265,7 @@
 
 
                 </div>
-                <div class="col text-white">
+                <div class="ps-5 ps-lg-0 col text-white">
                     <p class="menu-items">5. Shrimp Katsu — 17.95</p>
                     <p class="menu-desc">(Shrimp Breaded & Deep Fried)</p>
                     <p class="menu-items">6. Beef Teriyaki — 17.95</p>
@@ -278,18 +281,18 @@
     </article>
     <!-- Donburi -->
     <article id="Donburi">
-        <h1 class="text-white text-center pt-5">Donburi (Over Rice)</h1>
-        <p class="text-white text-center menu-desc pb-5">(Served W/ Salad)</p>
+        <h1 class="text-white text-center pt-5 menu-title">Donburi (Over Rice)</h1>
+        <p class="text-white text-center menu-desc pb-5 menu-desc">(Served W/ Salad)</p>
 
         <div class="container">
             <div class="row">
-                <div class="col text-white">
+                <div class="ps-5 ps-lg-0 col-12 col-lg text-white">
                     <p class="menu-items">1. Chicken Teriyaki Don — 14.95</p>
                     <p class="menu-desc">(Chicken Teriyaki Over Rice)</p>
                     <p class="menu-items">2. Ten Don — 14.95</p>
                     <p class="menu-desc">(Tempura Over Rice)</p>
                 </div>
-                <div class="col text-white">
+                <div class="ps-5 ps-lg-0 col-12 col-lg text-white">
                     <p class="menu-items">3. Beef Teriyaki Don — 15.95</p>
                     <p class="menu-desc">(Beef Teriyaki Over Rice)</p>
                     <p class="menu-items">4. Unagi Don — 20.95</p>
@@ -300,10 +303,10 @@
     </article>
     <!-- Sushi Maki -->
     <article id="SushiMaki">
-        <h1 class="text-white text-center py-5">Sushi Maki (Roll) <br>Appetizers</h1>
+        <h1 class="text-white text-center py-5 menu-title">Sushi Maki (Roll) <br>Appetizers</h1>
         <div class="container">
             <div class="row">
-                <div class="col text-white">
+                <div class="col ps-5 p-lg-0 text-white">
                     <p class="menu-items">1. California Maki — 6.50</p>
                     <p class="menu-desc">(Imitation Crab Meat W/ Avocado)</p>
                     <p class="menu-items">2. Kappa Maki — 6.50</p>
@@ -311,10 +314,10 @@
                     <p class="menu-items">3. Tekka Maki — 8.50</p>
                     <p class="menu-desc">(Tuna)</p>
                     <p class="menu-items">4. B.B.Q. Salmon Skin Maki — 8.50</p>
-                    <p class="menu-items">5. Ebi Maki (W/ Cucumber) — 8.50</p>
+                    <p class="menu-items">5. Ebi Maki <span class="menu-desc">(W/ Cucumber)</span> — 8.50</p>
                     <p class="menu-desc">(Shrimp)</p>
-                    <p class="menu-items">6. Chicken Or Beef Teriyaki Maki (W/ Cucumber) — 8.50</p>
-                    <p class="menu-items">7. Unagi Maki (W/ Avocado & Cucumber) — 8.50</p>
+                    <p class="menu-items">6. Chicken Or Beef Teriyaki Maki <span class="menu-desc">(W/  Cucumber)</span> — 8.50</p>
+                    <p class="menu-items">7. Unagi Maki <span class="menu-desc">(W/ Avocado & Cucumber)</span> — 8.50</p>
                     <p class="menu-desc">(Eel)</p>
                     <p class="menu-items">8. Inari — 8.50</p>
                     <p class="menu-desc">(Sweet Tofu Skin Stuffed W/ Sushi Rice)</p>
@@ -332,8 +335,32 @@
                     <p class="menu-desc">(Jalapeño with cheese and spicy tuna or spicy salmon deep fried)</p>
                     <p class="menu-items">15. Bake Mussel — 14.00</p>
                 </div>
-                <div class="col">
-                    <!-- insert carousel -->
+                <div class="col d-none d-lg-block">
+                    <div id="carouselSushiMaki" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./Assets/SpicyTunaHandRoll.jpg" class="d-block w-100" alt="An image of spicy sushi Hand Roll.">
+    </div>
+    <div class="carousel-item">
+      <img src="./Assets/BBQSalmonSkinHandRoll.jpg" class="d-block w-100" alt="Image BBQ Salmon Skin Hand Roll">
+    </div>
+    <div class="carousel-item">
+      <img src="./Assets/TunaHandRoll.jpg" class="d-block w-100" alt="Tuna Hand Roll">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselSushiMaki" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselSushiMaki" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- bottom:  maki calif, boston, raindow!! -->
+
+<!--  -->
+                    <!-- insert another carousel??? -->
                 </div>
             </div>
         </div>
@@ -341,17 +368,17 @@
     </article>
     <!-- Temaki Sushi -->
     <article id="TemakiSushi">
-        <h1 class="text-white text-center py-5">Temaki Sushi <br> (Hand Roll)</h1>
+        <h1 class="text-white text-center py-5 menu-title">Temaki Sushi <br> (Hand Roll)</h1>
 
         <div class="container">
             <div class="row text-white">
-                <div class="col ">
+                <div class="ps-5 ps-lg-0 col-lg">
                     <p class="menu-items">1. California Hand Roll — 7.00</p>
                     <p class="menu-items">2. Tuna Hand Roll — 7.00</p>
                     <p class="menu-items">3. Yellowtail Hand Roll — 7.00</p>
                     <p class="menu-items">4. Shrimp Hand Roll — 7.00</p>
                 </div>
-                <div class="col">
+                <div class="ps-5 ps-lg-0 col-lg">
                     <p class="menu-items">5. B.B.Q. Salmon Skin Hand Roll — 7.00</p>
                     <p class="menu-items">6. Eel (Unagi) Hand Roll — 7.00</p>
                     <p class="menu-items">7. Soft Shell Crab Hand Roll — 9.00</p>
@@ -361,10 +388,17 @@
     </article>
     <!-- Special Sushi -->
     <article id="SpecialSushi">
-        <h1 class="text-white text-center py-5">Special Sushi</h1>
+        <h1 class="text-white text-center py-5 menu-title">Special Sushi</h1>
         <div class="container">
             <div class="row text-white">
-                <div class="col-6">
+                <div class="ps-md-5 ps-lg-0 col-lg-6">
+
+                    <!-- MOBILE Carousel Insert -->
+                    <div class="d-block d-lg-none">
+                        
+                    </div>
+
+
                     <p class="menu-items">Rainbow Roll — $12.10</p>
                     <p>Assorted sliced raw fish on top of California roll, tobiko.</p>
                     <p class="menu-items">Zebra Roll — $14.10</p>
@@ -425,8 +459,8 @@
                     <p>Cucumber roll with salmon & avocado.</p>
                 </div>
 
-                <div class="col-6">
-                    <div style="height: 446px;">
+                <div class="col-lg-6 ps-md-5 ps-lg-0 ">
+                    <div class="d-none d-lg-block" style="height: 446px;">
                         <!-- insert carousel! -->
                     </div>
                     <p class="menu-items">Alaska Roll — $10.10</p>
@@ -480,33 +514,52 @@
     </article>
     <!-- Sashimi -->
     <article id="Sashimi">
-        <h1 class="text-white text-center pt-5">Sashimi</h1>
-        <p class="text-white text-center menu-desc pb-5">(Served W/ Salad, Rice & Soup)</p>
+        <h1 class="text-white text-center pt-5 menu-title">Sashimi</h1>
+        <p class="text-white text-center menu-desc pb-5 menu-desc">(Served W/ Salad, Rice & Soup)</p>
         <div class="container">
             <div class="row mb-5">
-
-
-                <div class="col text-white">
+                <div class="col-lg col-12 text-white ps-md-5 ps-lg-0">
                     <p class="menu-items">1. Sashimi Deluxe</p>
-                    <p>(Assorted Sliced Raw Fish) (By Season)</p>
+                    <p class="menu-desc">(Assorted Sliced Raw Fish) (By Season)</p>
                     <p class="menu-items">2. Tuna Sashimi</p>
-                    <p>(Sliced Raw Tuna)</p>
+                    <p class="menu-desc">(Sliced Raw Tuna)</p>
                     <p class="menu-items">3. Hamachi Sashimi</p>
-                    <p>(Sliced Raw Yellowtail)</p>
+                    <p class="menu-desc">(Sliced Raw Yellowtail)</p>
                     <p class="menu-items">4. Chirashi</p>
-                    <p>(Variety Of Sliced Raw Fish Over Sushi Rice)</p>
+                    <p class="menu-desc">(Variety Of Sliced Raw Fish Over Sushi Rice)</p>
                     <p class="menu-items">5. Tekka Don</p>
-                    <p>(Sliced Raw Tuna Over Sushi Rice)</p>
+                    <p class="menu-desc">(Sliced Raw Tuna Over Sushi Rice)</p>
                     <p class="menu-items">6. Hamachi Don</p>
-                    <p>(Sliced Raw Yellowtail Over Sushi Rice)</p>
+                    <p class="menu-desc">(Sliced Raw Yellowtail Over Sushi Rice)</p>
                     <p class="menu-items">7. Happy Sushi</p>
-                    <p>(9Pcs Chef’s Selected Nigiri)</p>
+                    <p class="menu-desc">(9Pcs Chef’s Selected Nigiri)</p>
                     <p class="menu-items">8. Tuna Ceviche</p>
-                    <p>(Raw tuna with vegetables sitting on chips)</p>
+                    <p class="menu-desc">(Raw tuna with vegetables sitting on chips)</p>
                     <p class="menu-items">9. Spicy Sashimi Salad</p>
                 </div>
-                <div class="col">
-
+                <div class="col d-none d-lg-block">
+                    <!-- Inserting Sashimi carousel -->
+                     <div id="carouselSashimi" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner" style="max-height: 840px;">
+    <div class="carousel-item active">
+      <img src="./Assets/Sashimi1.png" class="d-block w-100" alt="First Image of a sashimi bowl sitting on a bed of rice.">
+    </div>
+    <div class="carousel-item">
+      <img src="./Assets/Sashimi2.png" class="d-block w-100" alt="First Image of a sashimi bowl sitting on a bed of rice.">
+    </div>
+    <div class="carousel-item">
+      <img src="./Assets/poki sashimi.webp" class="d-block w-100" alt="A close up of a prepared Poki Sashimi.">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselSashimi" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselSashimi" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
                 </div>
             </div>
         </div>
