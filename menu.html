@@ -49,11 +49,6 @@
     <!-- Menu navbar for desktop version -->
     <nav style="background-color: #1E1E1E;" class="navbar sticky-top navbar-expand-lg p-0 d-none d-lg-block">
         <div class="container-fluid">
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-fill justify-content-between align-items-center">
                     <li class="nav-item">
@@ -93,27 +88,21 @@
         </div>
     </nav>
     <!-- Carousel navbar for items -->
-    <div id="carouselExampleIndicators" class="carousel slide sticky-top bg-black d-blcok d-lg-none" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
+    <div id="carouselMenu" class="carousel slide sticky-top bg-black d-blcok d-lg-none">
+
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class=" d-flex justify-content-around">
+                <div class=" d-flex justify-content-around" style="min-height: 48px;">
                     <a href="#Appetizer">Appetizer</a>
                     <a href="#Udon">Udon</a>
                     <a href="#DinnerSpecials">Dinner Special</a>
-
                 </div>
             </div>
             <div class="carousel-item">
-                <div class=" d-flex justify-content-around">
+                <div class=" d-flex justify-content-around" style="min-height: 48px;">
                     <a href="#Entrees">Entrees</a>
                     <a href="">Sashimi</a>
                     <a href="Special Sushi">Special Sushi</a>
-
                 </div>
             </div>
             <div class="carousel-item">
@@ -121,18 +110,23 @@
                     <a href="">Tekami Sushi <br>(Hand Roll)</a>
                     <a href="">Sushi Maki <br>(Roll)</a>
                     <a href="Donburi">Donburi</a>
-
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <!-- <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselMenu" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselMenu" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselMenu" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMenu" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselMenu" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-        </a>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
     <!-- Hero image in menu page -->
     <section>
@@ -190,7 +184,7 @@
 
                 </div>
                 <div class="col">
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselUdon" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="./Assets/udon soup 1.png" class="d-block w-100"
@@ -203,12 +197,12 @@
                                 <img src="#" class="d-block w-100 text-white" alt="insert img agian...">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselUdon"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselUdon"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
