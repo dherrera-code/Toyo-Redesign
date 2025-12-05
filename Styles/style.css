@@ -199,8 +199,46 @@ html {
         background-image: url(../image12);
     }
 }
-.sushi-carousel{
-    height: 400px;
+.carouselSpecialSushi{
+    height: 500px;
+}
+.gridSpecialSushi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 1fr;
+}
+.gridCarousel{
+    grid-row: 0;
+}
+.gridColOne{
+
+}
+.gridColTwo{
+    grid-column: 2;
+}
+@media (max-width: 900px)
+{
+    .gridSpecialSushi
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+    }
+    .gridCarousel
+    {
+        grid-row: 1;
+        padding-bottom: 3rem;
+    }
+    .gridColOne{
+        
+    }
+    .gridColTwo
+    {   
+        grid-column: 1;
+
+    }
+    .carouselSpecialSushi{
+        height: 500px;
+    }
 }
 @media (max-width: 500px)
 {
@@ -219,7 +257,7 @@ html {
     .navLogo{
         font-size: 24px;
     }
-    .sushi-carousel{
+    .carouselSpecialSushi{
         height: 250px;
     }
     .BackToTop{
