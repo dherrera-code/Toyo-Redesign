@@ -199,6 +199,7 @@ html {
         background-image: url(../image12);
     }
 }
+
 .carouselSpecialSushi{
     height: 500px;
 }
@@ -210,13 +211,10 @@ html {
 .gridCarousel{
     grid-row: 0;
 }
-.gridColOne{
-
-}
 .gridColTwo{
     grid-column: 2;
 }
-@media (max-width: 900px)
+@media (max-width: 1000px)
 {
     .gridSpecialSushi
     {
@@ -228,16 +226,13 @@ html {
         grid-row: 1;
         padding-bottom: 3rem;
     }
-    .gridColOne{
-        
-    }
     .gridColTwo
     {   
         grid-column: 1;
 
     }
     .carouselSpecialSushi{
-        height: 500px;
+        height: 400px;
     }
 }
 @media (max-width: 500px)
