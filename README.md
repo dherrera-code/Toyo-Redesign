@@ -11,4 +11,4 @@ In this project, Carlos and I decided on the Toyo Sushi business and re-created 
  // You can add multiple dates with description.
 
 // Person who Peer Reviewed your assignment
-Peer Review:  
+Peer Review:  Darcy Rose - It looks really good! Spot on with the figma, well done. The one concern I have is that the contact doesn't have a page for it.
